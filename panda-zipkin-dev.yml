@@ -5,7 +5,7 @@ zipkin:
       port: 5672
       username: admin
       password: admin111
-      virtual-host: /
+      virtual-host: /admin
       queue: zipkin
   storage:
     type: mysql
