@@ -2,7 +2,7 @@ zipkin:
   collector:
     rabbitmq:
       addresses: panda-rabbitmq
-      port: 15672
+      port: 5672
       username: admin
       password: admin111
       virtual-host: /
