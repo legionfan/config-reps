@@ -3,9 +3,9 @@ zipkin:
     rabbitmq:
       addresses: panda-rabbitmq
       port: 5672
-      username: admin
-      password: admin111
-      virtual-host: /admin
+      username: guest
+      password: guest
+      virtual-host: /
       queue: zipkin
   storage:
     type: mysql
